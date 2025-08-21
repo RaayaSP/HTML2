@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            border:3px solid lightcoral;
+            text-align: center;
+            font-size: 50px;  
+        }
+        ul>li{
+            color: brown;
+            font-size: 70px;
+
+        }
+        h1+p{
+            font-size: 60px;
+            color: crimson;
+        }
+        ol{
+            color:firebrick;
+            font-size: 70px;
+            
+        }
+        a:hover{
+            color: brown;
+            font-size : 70px;
+        }
+        #a li:nth-child(2){
+          background-color: aqua;  
+        }
+        div:not(.c){
+            border:15px dashed lightsalmon;
+        }
+        .c::before{
+            content:HEART 💕;
+            color: coral;
+        }
+        #p1::first-letter{
+            font-size:200%;
+            color:chocolate
+        }
+    </style>
+</head>
+<body>
+    <h1>SELECTORS</h1>
+    <p>This website will show us how different selectors look like.</p>
+    <input type="text" placeholder="TYPE YOUR NAME ">
+    <input type="password" placeholder="ENTER YOUR PASSWORD">
+    <ul>
+        <li>first</li>
+        <li>second</li>
+        <li>third</li>
+        <li>fourth</li>
+        <ol>
+            <li>ABC</li>
+            <li>DEF</li>
+            <li>GHI</li>
+            <li>JKL</li>
+        </ol>
+    </ul>
+    <p id="#p1"> THIS WILL SHOW US HOW ADVANCED SELECTORS WORK</p>
+    <a href="#">hover over me </a>
+    <ul id="a">
+        <li>item 1 </li>
+        <li>item 2 </li>
+        <li>item 3 </li>
+    </ul>
+    <div class="a">div1</div>
+    <div class="b">div2</div>
+   
+
+</body>
+</html>
